@@ -1,0 +1,32 @@
+
+
+.cdpInstagramTag {
+	behavior: url('/lulustatic/hr/js/pie.htc');
+}
+
+div#luluCartPromos div.threePromos {
+	behavior: url('/lulustatic/hr/js/pie.htc');
+}
+div#luluCartPromos div.twoPromos {
+	behavior: url('/lulustatic/hr/js/pie.htc');
+}
+div#luluCartPromos div.onePromo {
+	behavior: url('/lulustatic/hr/js/pie.htc');
+}
+div.sbHolder {
+	behavior: url('/lulustatic/hr/js/pie.htc');
+}
+a.sbToggle {
+	behavior: url('/lulustatic/hr/js/pie.htc');
+}
+.sbSelector, .sbSelector:link, .sbSelector:visited, .sbSelector:hover { 
+	behavior: url('/lulustatic/hr/js/pie.htc');
+}
+.circle {
+	behavior: url('/lulustatic/hr/js/pie.htc');
+}
+
+.popup-form, .return-options textarea, .return-row, #error-popup {
+	behavior: url('/lulustatic/hr/js/pie.htc');
+}
+

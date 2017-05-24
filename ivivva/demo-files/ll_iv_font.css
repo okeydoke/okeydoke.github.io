@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'avenir95black';
+	src: url('/lulustatic/hr/fonts/avenir_95_black-webfont.eot');
+	src: url('/lulustatic/hr/fonts/avenir_95_black-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/lulustatic/hr/fonts/avenir_95_black-webfont.woff') format('woff'),
+		url('/lulustatic/hr/fonts/avenir_95_black-webfont.ttf') format('truetype'),
+		url('/lulustatic/hr/fonts/avenir_95_black-webfont.svg#AvenirLTStd35Light') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AvenirLTStd35Light';
+	src: url('/lulustatic/hr/fonts/avenirltstd-light-webfont.eot');
+	src: url('/lulustatic/hr/fonts/avenirltstd-light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/lulustatic/hr/fonts/avenirltstd-light-webfont.woff') format('woff'),
+		url('/lulustatic/hr/fonts/avenirltstd-light-webfont.ttf') format('truetype'),
+		url('/lulustatic/hr/fonts/avenirltstd-light-webfont.svg#AvenirLTStd35Light') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'BelizioRegular';
+	src: url('/lulustatic/hr/fonts/Belizio-Regular.eot');
+	src: 
+		url('/lulustatic/hr/fonts/Belizio-Regular.woff') format('woff'),
+		url('/lulustatic/hr/fonts/Belizio-Regular.ttf') format('truetype'),
+		url('/lulustatic/hr/fonts/Belizio-Regular.svg#BelizioRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+ 
+@font-face {
+	font-family: 'ProximaNova-Regular';
+	src: url('/lulustatic/intl/hr/fonts/2782E9_7A_0.eot');
+	src: url('/lulustatic/intl/hr/fonts/2782E9_7A_0.eot?#iefix') format('embedded-opentype'),
+		 url('/lulustatic/intl/hr/fonts/2782E9_7A_0.woff') format('woff'),
+		 url('/lulustatic/intl/hr/fonts/2782E9_7A_0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ProximaNova-ThinIt';
+	src: url('/lulustatic/intl/hr/fonts/2782E9_6B_0.eot');
+	src: url('/lulustatic/intl/hr/fonts/2782E9_6B_0.eot?#iefix') format('embedded-opentype'),
+	url('/lulustatic/intl/hr/fonts/2782E9_6B_0.woff') format('woff'),
+	url('/lulustatic/intl/hr/fonts/2782E9_6B_0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

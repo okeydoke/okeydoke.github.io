@@ -1,0 +1,245 @@
+ @-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+body #primary {
+  background: none !important;
+}
+
+.animated-height-top{
+  height: 1px;
+  width: 93px;
+  border-bottom: 1px dashed #000;
+}
+.animated-height-bottom{
+  height: 1px;
+  width: 98px;
+  border-top: 1px dashed #000;
+}
+  .animated-height-body{
+    width: 1px;
+    height: 10px;
+    background-color: #000;
+
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+
+    -moz-animation-duration: 0.5s;
+    -moz-animation-delay: 0s;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: 1;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+  }
+  body{
+    font-family: Tahoma, Verdana, sans-serif;
+  }
+  #mensshorts2014-container{
+    border-radius: 0 40px 0 0;
+    height: 340px;
+    width: 980px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+  }
+  .mensshorts2014-panel, .mensshorts2014-nonsense-panel{
+    position: absolute;
+    left:0;
+    right:0;
+    top:340px;
+    height: 340px;
+    border-radius: 0 40px 0 0;
+    background-position: center;
+  }
+  .mensshorts2014-nonsense-panel{
+    background: no-repeat center url(http://images.lululemon.com/is/image/lululemon/mensshorts2014-nonsense-bg);
+    width: 100%;
+  }
+    .mensshorts2014-nonsense-panel div{
+      position: absolute;
+      cursor: pointer;
+    }
+
+    /* safari fix */
+    span.mensshorts2014-parent.mensshorts2014-link{
+      width: 150px;
+      text-align: right;
+    }
+
+  .mensshorts2014-element{
+    position: absolute;
+    z-index: 10;
+  }
+  #mensshorts2014-panel-home {
+    top:0;
+    background-color: #444;
+    color: #FFFFFF;
+    font-family: Tahoma, Verdana, sans-serif;
+  }
+    #mensshorts2014-panel-home ul{
+      list-style: none outside none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      bottom: 0;
+    }
+      #mensshorts2014-panel-home ul li{
+        display: table;
+        float: left;
+        height: 242px;
+        text-align: center;
+        width: 242px;
+        cursor: pointer;
+        position: relative;
+        margin-right: 4px;
+      }
+      .mensshorts2014-activity{
+        display: table-cell;
+        vertical-align: middle;
+        font-size: 20px;
+        background-repeat: no-repeat;
+      }
+        .mensshorts2014-activity-redline{
+          margin:0 auto;
+          height: 20px;
+          display: inline-block;
+          vertical-align: top;
+        }
+      .mensshorts2014-home-train{
+        background: url(http://images.lululemon.com/is/image/lululemon/mensshorts2014-home-train) no-repeat;
+        background-position: 0 0;
+      }
+        .mensshorts2014-home-train:hover{
+          background-position: 0 -242px;
+        }
+
+      .mensshorts2014-home-run{
+        background: url(http://images.lululemon.com/is/image/lululemon/mensshorts2014-home-run) no-repeat;
+        background-position: 0 0;
+      }
+        .mensshorts2014-home-run:hover{
+          background-position: 0 -242px;
+        }
+
+      .mensshorts2014-home-yoga{
+        background: url(http://images.lululemon.com/is/image/lululemon/mensshorts2014-home-yoga) no-repeat;
+        background-position: 0 0;
+      }
+        .mensshorts2014-home-yoga:hover{
+          background-position: 0 -242px;
+        }
+
+      .mensshorts2014-home-anything{
+        background: url(http://images.lululemon.com/is/image/lululemon/mensshorts2014-home-anything) no-repeat;
+        background-position: 0 0;
+        margin-right: 0px !important;
+      }
+        .mensshorts2014-home-anything:hover{
+          background-position: 0 -242px;
+        }
+
+    .mensshorts2014-parent{
+      font-size: 11px;
+      font-weight: bold;
+      position: absolute;
+      right: 18px;
+      text-transform: uppercase;
+      top: 28px;
+      cursor: pointer;
+      line-height: 30px;
+    }
+      .mensshorts2014-parent:hover{
+        color:#777;
+      }
+      .mensshorts2014-parent-link-icon{
+        display: inline-block;
+        width:14px;
+        height: 9px;
+        background: url(http://images.lululemon.com/is/image/lululemon/mensshorts2014-return-buttons?$pngstandard$) 0 0 no-repeat;
+      }
+        .mensshorts2014-parent:hover .mensshorts2014-parent-link-icon, .mensshorts2014-parent-link-icon:hover{
+          background: url(http://images.lululemon.com/is/image/lululemon/mensshorts2014-return-buttons?$pngstandard$) 0 -9px no-repeat;
+        }
+      .mensshorts2014-start-over-icon{
+        display: inline-block;
+        width:12px;
+        height: 15px;
+        background: url(http://images.lululemon.com/is/image/lululemon/mensshorts2014-return-buttons?$pngstandard$) -14px 0 no-repeat;
+        vertical-align: text-top;
+      }
+        .mensshorts2014-parent:hover .mensshorts2014-start-over-icon, .mensshorts2014-start-over-icon:hover{
+          background: url(http://images.lululemon.com/is/image/lululemon/mensshorts2014-return-buttons?$pngstandard$) -14px -15px no-repeat;
+        }
+
+    #mensshorts2014-redline{
+      background-color: #e51830;
+      /*border-radius: 5px;*/
+      height: 3px;
+      position: absolute;
+      opacity: 0;
+      -moz-animation-duration: 0.3s;
+      -moz-animation-delay: 0s;
+      -moz-animation-iteration-count: 1;
+      -webkit-animation-duration: 0.3s;
+      -webkit-animation-delay: 0s;
+      -webkit-animation-iteration-count: 1;
+      animation-duration: 0.3s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      z-index: 20;
+      visibility: hidden;
+    }
+      .mensshorts2014-redline-active{
+        opacity: 1 !important;
+        visibility: visible !important;
+
+      }
+    .mensshorts2014-pdp-link{
+      width:158px;
+      height: 33px;
+      display: block;
+      position: absolute;
+      background: url(http://images.lululemon.com/is/image/lululemon/mensshorts2014-result-get?$pngstandard$) 0 0px;
+    }
+      .mensshorts2014-pdp-link:hover{
+        background-position: 0 33px;
+      }
+
+    #mensshorts2014-animated-height-run-5, #mensshorts2014-animated-height-run-7{
+      z-index: 0;
+    }
